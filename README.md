@@ -7,10 +7,10 @@ This discord bot is available to execute commands to the host of the bot, this i
 * Launch tool (execution of apps, on windows is includes any file type with an assigned application.)
 
 # Images
-![sh](https://github.com/user-attachments/assets/c67742ee-024c-4797-91c4-6f64199f697c)
+![sh](https://github.com/user-attachments/assets/c67742ee-024c-4797-91c4-6f64199f697c)<br>
 Image of Screenshot command ran off a macOS host.
 
-![image](https://github.com/user-attachments/assets/4c5d72f8-7aca-4210-b811-a613c79cd64c)
+![image](https://github.com/user-attachments/assets/4c5d72f8-7aca-4210-b811-a613c79cd64c)<br>
 Screenshot of Page 1 of (6) of macOS host's specs.
 
 ## Development target
