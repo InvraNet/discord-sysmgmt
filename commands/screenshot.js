@@ -9,6 +9,8 @@ module.exports = {
     data: {
         name: 'screenshot',
         description: 'Takes a screenshot, compresses it, and sends it as an attachment.',
+        example: `${process.env.PREFIX}screenshot`,
+        support: "Linux, Windows, macOS",
     },
     async execute(message, args) {
         try {

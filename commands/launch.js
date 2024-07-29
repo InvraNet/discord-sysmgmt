@@ -6,6 +6,8 @@ module.exports = {
     data: {
         name: 'launch',
         description: 'Launches an application.',
+        example: `${process.env.PREFIX}launch 'kitty'`,
+        support: "Linux, Windows",
         options: [
             {
                 type: 'STRING',

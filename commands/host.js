@@ -5,6 +5,8 @@ module.exports = {
     data: {
         name: 'host',
         description: 'Provides detailed system information including CPU, GPU, RAM, and OS.',
+        example: `${process.env.PREFIX}host`,
+        support: "Linux, Windows, macOS",
     },
     async execute(message) {
         try {
