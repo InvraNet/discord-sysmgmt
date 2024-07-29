@@ -25,13 +25,12 @@ client.once('ready', () => {
 });
 
 client.on('messageCreate', async message => {
-    if (!message.content.startsWith('!') || message.author.bot) return;
+    if (!message.content.startsWith(process.env.PREFIX) || message.author.bot) return;
 
     const args = message.content.slice(1).trim().split(/ +/);
     const commandName = args.shift().toLowerCase();
 
     if (commandName === 'help') {
-        // Handle the help command
         if (!client.commands.has(commandName)) {
             return message.reply('This command does not exist.');
         }
